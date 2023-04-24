@@ -1,0 +1,11 @@
+Bedroom:
+ - left arrow: Kitchen
+ - right arrow: Bathroom
+
+Bathroom:
+ - left arrow: Bedroom
+ - right arrow: Kitchen
+
+Kitchen:
+ - left arrow: Bathroom
+ - right arrow: Bedroom
