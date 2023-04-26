@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/Notita.unity
     guid: 51376ef269081f34b942ed8669eebb1c
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Cuptor.unity
+    guid: 12a5fc3c5dd0d1d4fad95f97d5cfa23a
   m_configObjects: {}
