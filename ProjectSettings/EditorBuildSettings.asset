@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/Seif.unity
     guid: f48e277bad3fd864cad1f2ff8ecacdb5
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Chiuveta.unity
+    guid: 1e4547dc735b21745be2971b3534a3da
   m_configObjects: {}
