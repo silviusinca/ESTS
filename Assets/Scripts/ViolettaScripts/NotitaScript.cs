@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class buton_script : MonoBehaviour
+public class NotitaScript : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("SertarBucatarie");
+        SceneManager.LoadScene("Notita");
     }
 }
-

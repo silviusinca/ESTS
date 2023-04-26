@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/Chiuveta.unity
     guid: 1e4547dc735b21745be2971b3534a3da
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/SertarBucatarie.unity
+    guid: 4127dc9bd41250c458090c400a3c1d19
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Notita.unity
+    guid: 51376ef269081f34b942ed8669eebb1c
   m_configObjects: {}
