@@ -26,4 +26,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/Seif.unity
     guid: f48e277bad3fd864cad1f2ff8ecacdb5
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Chiuveta.unity
+    guid: 1e4547dc735b21745be2971b3534a3da
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/SertarBucatarie.unity
+    guid: 4127dc9bd41250c458090c400a3c1d19
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Notita.unity
+    guid: 51376ef269081f34b942ed8669eebb1c
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Cuptor.unity
+    guid: 12a5fc3c5dd0d1d4fad95f97d5cfa23a
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/notOlga.unity
+    guid: 86e456d60c49e504c8240e6df2288351
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/masaBuc.unity
+    guid: 7a782a24844cd4442bd187244375891e
   m_configObjects: {}
