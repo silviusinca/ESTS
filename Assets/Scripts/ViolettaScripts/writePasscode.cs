@@ -7,6 +7,6 @@ public class writePasscode : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(12);
     }
 }
