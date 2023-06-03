@@ -11,35 +11,36 @@ public class addToInventory : MonoBehaviour
 {
     public Inventory inventory;
     public GameObject objectToAdd;
-    private string objectString;
-    public void Start()
-    {
-        inventory = GameObject.FindGameObjectWithTag("Inventar").GetComponent<Inventory>();
-       
-    }
+    private int isDestroyed;
 
-    public void Awake()
+    private void Awake()
     {
-        int index = gameObject.ToString().IndexOf("(");
-        objectString = gameObject.ToString().Substring(0, index);
-        if (!PlayerPrefs.HasKey(objectString))
+        if (!PlayerPrefs.HasKey(gameObject.name))
         {
-            PlayerPrefs.SetInt(objectString, 0);
+            PlayerPrefs.SetInt(gameObject.name, 0);
             PlayerPrefs.Save();
         }
-        Debug.Log(objectString);
-        int isDestroyed = PlayerPrefs.GetInt(objectString);
-        Debug.Log(isDestroyed);
-        if (isDestroyed == 100)
+
+        isDestroyed = PlayerPrefs.GetInt(gameObject.name);
+        if (isDestroyed == 1)
         {
             Destroy(gameObject);
         }
     }
+
+    public void Start()
+    {
+        inventory = GameObject.FindGameObjectWithTag("Inventar").GetComponent<Inventory>();
+    }
+
     public void OnMouseDown()
     {
-        PlayerPrefs.SetInt(objectString, 100);
-        PlayerPrefs.Save();
-        for (int i = 0; i < inventory.inventorySlots.Count; i++)
+        if (isDestroyed != 1)
+        {
+            PlayerPrefs.SetInt(gameObject.name, 1);
+            PlayerPrefs.Save();
+
+            for (int i = 0; i < inventory.inventorySlots.Count; i++)
             {
                 if (!inventory.isFull[i])
                 {
@@ -54,3 +55,4 @@ public class addToInventory : MonoBehaviour
             }
         }
     }
+}
