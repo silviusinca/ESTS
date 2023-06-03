@@ -30,14 +30,14 @@ public class addToInventory : MonoBehaviour
         Debug.Log(objectString);
         int isDestroyed = PlayerPrefs.GetInt(objectString);
         Debug.Log(isDestroyed);
-        if (isDestroyed == 1)
+        if (isDestroyed == 100)
         {
             Destroy(gameObject);
         }
     }
     public void OnMouseDown()
     {
-        PlayerPrefs.SetInt(objectString, 1);
+        PlayerPrefs.SetInt(objectString, 100);
         PlayerPrefs.Save();
         for (int i = 0; i < inventory.inventorySlots.Count; i++)
             {
