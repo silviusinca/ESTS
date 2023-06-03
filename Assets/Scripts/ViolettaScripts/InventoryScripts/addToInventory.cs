@@ -1,9 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics.Contracts;
-using System.Linq;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,31 +8,34 @@ public class addToInventory : MonoBehaviour
 {
     public Inventory inventory;
     public GameObject objectToAdd;
-    private int isDestroyed;
-
+    private bool isDestroyed = false;
+    private static Dictionary<string, bool> objectStatuses = new Dictionary<string, bool>(); //asta ma asigura ca se reseteaza playerPrefs
     private void Awake()
     {
-        if (!PlayerPrefs.HasKey(gameObject.name))
+        if (!objectStatuses.ContainsKey(gameObject.name))
+        {
+            objectStatuses[gameObject.name] = false;
+        }
+        if (!objectStatuses[gameObject.name])
         {
             PlayerPrefs.SetInt(gameObject.name, 0);
+            objectStatuses[gameObject.name] = true;
             PlayerPrefs.Save();
         }
-
-        isDestroyed = PlayerPrefs.GetInt(gameObject.name);
-        if (isDestroyed == 1)
+        isDestroyed = PlayerPrefs.GetInt(gameObject.name) == 1;
+        if (isDestroyed)
         {
             Destroy(gameObject);
         }
     }
 
-    public void Start()
+    private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Inventar").GetComponent<Inventory>();
     }
-
-    public void OnMouseDown()
+    private void OnMouseDown()
     {
-        if (isDestroyed != 1)
+        if (!isDestroyed)
         {
             PlayerPrefs.SetInt(gameObject.name, 1);
             PlayerPrefs.Save();
