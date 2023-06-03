@@ -11,6 +11,7 @@ public class addToInventory : MonoBehaviour
 {
     public Inventory inventory;
     public GameObject objectToAdd;
+    private string objectString;
     public void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Inventar").GetComponent<Inventory>();
@@ -19,15 +20,24 @@ public class addToInventory : MonoBehaviour
 
     public void Awake()
     {
-        int isNotDestroyed = PlayerPrefs.GetInt(gameObject.ToString(), 1);
-        if (isNotDestroyed == 0)
+        int index = gameObject.ToString().IndexOf("(");
+        objectString = gameObject.ToString().Substring(0, index);
+        if (!PlayerPrefs.HasKey(objectString))
+        {
+            PlayerPrefs.SetInt(objectString, 0);
+            PlayerPrefs.Save();
+        }
+        Debug.Log(objectString);
+        int isDestroyed = PlayerPrefs.GetInt(objectString);
+        Debug.Log(isDestroyed);
+        if (isDestroyed == 1)
         {
             Destroy(gameObject);
         }
     }
     public void OnMouseDown()
     {
-        PlayerPrefs.SetInt(gameObject.ToString(), 0);
+        PlayerPrefs.SetInt(objectString, 1);
         PlayerPrefs.Save();
         for (int i = 0; i < inventory.inventorySlots.Count; i++)
             {
