@@ -7,6 +7,8 @@ public class notitaOlga : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("notOlga");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("notOlga");
+        }
     }
 }

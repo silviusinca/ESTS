@@ -7,6 +7,8 @@ public class KitchenScene : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Kitchen");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Kitchen");
+        }
     }
 }

@@ -7,7 +7,7 @@ public class cutieInchisa : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        if (addToInventory.objectsAdded.Contains("cutit")){
+        if (addToInventory.objectsAdded.Contains("cutit") && !PauseMenu.isPaused){
             SceneManager.LoadScene("cutie");
         }
     }

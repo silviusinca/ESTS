@@ -7,7 +7,9 @@ public class OitzaScene : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Oitza");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Oitza");
+        }
     }
 }
 

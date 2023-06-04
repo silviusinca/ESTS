@@ -7,6 +7,8 @@ public class buttonExit : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Bathroom");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Bathroom");
+        }
     }
 }

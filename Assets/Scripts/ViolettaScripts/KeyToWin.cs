@@ -7,6 +7,8 @@ public class KeyToWin : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Menu");
+        if (!PauseMenu.isPaused) { 
+            SceneManager.LoadScene("Menu");
+        }
     }
 }

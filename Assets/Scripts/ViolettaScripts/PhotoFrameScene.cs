@@ -7,6 +7,8 @@ public class PhotoFrameScene : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("PhotoFrame");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("PhotoFrame");
+        }
     }
 }

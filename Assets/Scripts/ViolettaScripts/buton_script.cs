@@ -7,7 +7,9 @@ public class buton_script : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("SertarBucatarie");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("SertarBucatarie");
+        }
     }
 }
 

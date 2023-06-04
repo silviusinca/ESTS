@@ -7,6 +7,8 @@ public class NotitaScript : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Notita");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Notita");
+        }
     }
 }

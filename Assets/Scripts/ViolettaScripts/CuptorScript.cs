@@ -7,7 +7,9 @@ public class CuptorScript : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Cuptor");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Cuptor");
+        }
     }
 }
 

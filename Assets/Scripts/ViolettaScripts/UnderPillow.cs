@@ -7,6 +7,8 @@ public class UnderPillow : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("UnderPillow");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("UnderPillow");
+        }
     }
 }

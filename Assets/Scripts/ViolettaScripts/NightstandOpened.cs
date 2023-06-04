@@ -7,6 +7,8 @@ public class NightstandOpened : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Nightstand");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Nightstand");
+        }
     }
 }

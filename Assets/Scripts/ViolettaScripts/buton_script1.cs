@@ -7,7 +7,9 @@ public class buton_script1 : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Kitchen");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Kitchen");
+        }
     }
 }
 

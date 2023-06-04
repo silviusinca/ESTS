@@ -6,6 +6,8 @@ public class ChiuvetaBaie : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("ChiuvetaBaie");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("ChiuvetaBaie");
+        }
     }
 }

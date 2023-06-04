@@ -7,6 +7,8 @@ public class cadaBathroom : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Cada");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Cada");
+        }
     }
 }

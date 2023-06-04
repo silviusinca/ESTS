@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class masaScript : MonoBehaviour
 {
     public void OnMouseDown(){
-        SceneManager.LoadScene("masaBuc");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("masaBuc");
+        }
     }
 }

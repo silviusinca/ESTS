@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class insideWardrobe : MonoBehaviour
 {
-     public void OnMouseDown()
+    public void OnMouseDown()
     {
-        SceneManager.LoadScene("Seif");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Seif");
+        }
     }
 }

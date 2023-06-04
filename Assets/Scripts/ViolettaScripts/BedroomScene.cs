@@ -7,6 +7,9 @@ public class BedroomScene : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Bedroom");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Bedroom");
+        }
+
     }
 }

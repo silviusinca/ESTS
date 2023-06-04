@@ -7,6 +7,8 @@ public class SertarBaie : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("SertarBaie");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("SertarBaie");
+        }
     }
 }

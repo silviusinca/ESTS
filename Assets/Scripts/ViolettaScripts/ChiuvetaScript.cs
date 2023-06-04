@@ -7,7 +7,9 @@ public class ChiuvetaScript : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Chiuveta");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Chiuveta");
+        }
     }
 }
 

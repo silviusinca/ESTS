@@ -7,7 +7,9 @@ public class BadCorner : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("NoteOfCodeStory");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("NoteOfCodeStory");
+        }
     }
     
 }

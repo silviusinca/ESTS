@@ -7,6 +7,8 @@ public class SeifScene : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Seif");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("Seif");
+        }
     }
 }

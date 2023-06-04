@@ -7,6 +7,8 @@ public class ReadCodeStory : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("ReadNote");
+        if (!PauseMenu.isPaused) {
+            SceneManager.LoadScene("ReadNote");
+        }
     }
 }
