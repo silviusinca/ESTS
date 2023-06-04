@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Passcode : MonoBehaviour
 {
-    string Code = "123";
+    string Code = "21256826";
     string Nr = null;
     int NrIndex = 0;
     string alpha;
