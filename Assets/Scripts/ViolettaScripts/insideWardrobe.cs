@@ -7,6 +7,6 @@ public class insideWardrobe : MonoBehaviour
 {
      public void OnMouseDown()
     {
-        SceneManager.LoadScene("Seif");
+        SceneManager.LoadScene("OpenWardrobe");
     }
 }

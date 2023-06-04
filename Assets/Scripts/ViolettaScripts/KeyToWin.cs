@@ -7,6 +7,6 @@ public class KeyToWin : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Congrats");
     }
 }

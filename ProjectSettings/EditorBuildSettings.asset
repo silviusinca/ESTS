@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/Scenes/ViolettaScenes/Menu.unity
     guid: 903b8bd3bb302924cb61b945883e2afe
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/Bedroom.unity
@@ -78,9 +78,15 @@ EditorBuildSettings:
     path: Assets/Scenes/ViolettaScenes/Oitza.unity
     guid: 19b3d13c5af419a41acc6b634319a844
   - enabled: 1
-    path: Assets/Scenes/ViolettaScenes/NoteOfCodestory.unity
+    path: Assets/Scenes/ViolettaScenes/NoteOfCodeStory.unity
     guid: 4287a5f5a9fb38344a0105a6efe35d74
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/ReadNote.unity
     guid: e5367cc772be70a408068426778b2269
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/StartVioletta.unity
+    guid: dc897562979a71143aea86abd712c5fc
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Congrats.unity
+    guid: e17f433edf44fb8469d71f251292d294
   m_configObjects: {}
