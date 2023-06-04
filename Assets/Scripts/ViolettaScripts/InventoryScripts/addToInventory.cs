@@ -8,9 +8,9 @@ public class addToInventory : MonoBehaviour
 {
     public Inventory inventory;
     public GameObject objectToAdd;
-    private bool isDestroyed = false;
-    private static List<String> objectsAdded = new List<String>(); // aici retin toate obiectele adaugate
-    private static Dictionary<string, bool> objectStatuses = new Dictionary<string, bool>(); //asta ma asigura ca se reseteaza playerPrefs
+    public bool isDestroyed = false;
+    public static List<String> objectsAdded = new List<String>(); // aici retin toate obiectele adaugate
+    public static Dictionary<string, bool> objectStatuses = new Dictionary<string, bool>(); //asta ma asigura ca se reseteaza playerPrefs
     private void Awake()
     {
         if (!objectStatuses.ContainsKey(gameObject.name))

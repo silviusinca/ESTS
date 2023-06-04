@@ -6558,6 +6558,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Oitza
       objectReference: {fileID: 0}
+    - target: {fileID: 2224066194835646446, guid: 75c2e7a6aa9724b4fbe0685a793bc83e, type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 517565624}
     - target: {fileID: 2224066194835646447, guid: 75c2e7a6aa9724b4fbe0685a793bc83e, type: 3}
       propertyPath: m_IsTrigger
       value: 1
