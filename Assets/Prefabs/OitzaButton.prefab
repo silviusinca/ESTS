@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5917855424042971144}
   - component: {fileID: 4777297064465972996}
   - component: {fileID: 2549681880411053373}
-  - component: {fileID: -793093196119379291}
   - component: {fileID: 3703392322948333105}
+  - component: {fileID: 1981192278248656852}
   m_Layer: 5
   m_Name: OitzaButton
   m_TagString: Untagged
@@ -78,7 +78,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-793093196119379291
+--- !u!114 &3703392322948333105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4130557461981996820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d05d5db3cdd4b4883fe4076d759288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1981192278248656852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,15 +146,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3703392322948333105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4130557461981996820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13d05d5db3cdd4b4883fe4076d759288, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
