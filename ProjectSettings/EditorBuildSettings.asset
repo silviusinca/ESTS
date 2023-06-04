@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ViolettaScenes/PhotoFrame.unity
     guid: 22ce1c4e903a1324389317dc2d979ec8
   - enabled: 0
-    path: Assets/Scenes/ViolettaScenes/Oitza.unity
+    path: 
     guid: 06f584df2a901d341b32c8c76ed70f9f
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/Seif.unity
@@ -59,4 +59,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/UnderPillow.unity
     guid: 5d918beab5e9cf14cb1ad467d32dd93a
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/NoteOfCodeStory.unity
+    guid: ebbb70579bcf93847a0678bd859de82c
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/ReadNoteOfCodeStory.unity
+    guid: 8dcbe963928673a4b99a3e53fe9e7796
   m_configObjects: {}
