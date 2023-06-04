@@ -32,4 +32,8 @@ public class Passcode : MonoBehaviour
         Nr = null;
         UiText.text = Nr;  
     }
+    public void Back()
+    {
+        SceneManager.LoadScene("Bedroom");
+    }
 }
