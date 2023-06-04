@@ -9,6 +9,7 @@ public class addToInventory : MonoBehaviour
     public Inventory inventory;
     public GameObject objectToAdd;
     private bool isDestroyed = false;
+    private static List<String> objectsAdded = new List<String>(); // aici retin toate obiectele adaugate
     private static Dictionary<string, bool> objectStatuses = new Dictionary<string, bool>(); //asta ma asigura ca se reseteaza playerPrefs
     private void Awake()
     {
@@ -46,6 +47,11 @@ public class addToInventory : MonoBehaviour
                 {
                     if (gameObject != null)
                     {
+                        objectsAdded.Add(gameObject.name);
+                        foreach (String g in objectsAdded)
+                        {
+                            Debug.Log(g);
+                        }
                         inventory.isFull[i] = true;
                         Instantiate(objectToAdd, inventory.inventorySlots[i].transform, false);
                         Destroy(gameObject);

@@ -743,6 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 226f51474a457764088ed170b21458c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventory: {fileID: 329095809}
   objectToAdd: {fileID: 4130557461981996820, guid: 386b4c43ef5cdfa4b9bb4b511efb0665, type: 3}
 --- !u!61 &1461586200
 BoxCollider2D:
