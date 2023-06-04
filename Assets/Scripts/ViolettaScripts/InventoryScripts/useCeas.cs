@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ReadCodeStory : MonoBehaviour
+public class useCeas : MonoBehaviour
 {
-    public void OnMouseDown()
+    public void Use()
     {
-        SceneManager.LoadScene("ReadNote");
+        SceneManager.LoadScene("Ceas");
     }
 }
