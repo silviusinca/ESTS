@@ -23,7 +23,7 @@ public class Passcode : MonoBehaviour
     {
         if (Nr == Code)
         {
-            SceneManager.LoadScene(13);
+            SceneManager.LoadScene("OpenSafeBox");
         }
     }
     public void Delete()
