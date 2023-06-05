@@ -645,7 +645,6 @@ GameObject:
   - component: {fileID: 1025717183}
   - component: {fileID: 1025717182}
   - component: {fileID: 1025717181}
-  - component: {fileID: 1025717185}
   - component: {fileID: 1025717186}
   m_Layer: 5
   m_Name: PauseCanvas
@@ -736,18 +735,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1025717185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1025717180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce1dd7d4f032d42518381f2093e0fac4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1025717186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,9 +748,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 2043771415}
-  leftButton: {fileID: 0}
-  rightButton: {fileID: 0}
-  inventory: {fileID: 0}
 --- !u!1 &1087413674
 GameObject:
   m_ObjectHideFlags: 0
