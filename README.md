@@ -3,7 +3,7 @@
 Proiect realizat pentru Metode de Dezvoltare Software.
 
 # Proiect creat de: 
-[Sinca Silviu](https://github.com/silviusinca) "\n"
+[Sinca Silviu](https://github.com/silviusinca) <br>
 [Voinea Ana-Maria](https://github.com/Moozey)
 [Magureanu Stefan](https://github.com/StefanMagureanu25)
 [Duca Cosmina]()
