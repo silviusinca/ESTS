@@ -3,11 +3,11 @@
 Proiect realizat pentru Metode de Dezvoltare Software.
 
 # Proiect creat de: 
-	[Sinca Silviu](https://github.com/silviusinca)
-	[Voinea Ana-Maria](https://github.com/Moozey)
-	[Magureanu Stefan](https://github.com/StefanMagureanu25)
-	[Duca Cosmina]()
-	[Danciu Razvan](https://github.com/RazvanDanciu28)
+[Sinca Silviu](https://github.com/silviusinca)
+[Voinea Ana-Maria](https://github.com/Moozey)
+[Magureanu Stefan](https://github.com/StefanMagureanu25)
+[Duca Cosmina]()
+[Danciu Razvan](https://github.com/RazvanDanciu28)
 
 
 
