@@ -11,7 +11,7 @@ Proiect realizat pentru Metode de Dezvoltare Software.
 
 
 
-### Cerintele din barem sunt detaliate in sectiunea de Wiki.
+### Cerintele din barem sunt detaliate in sectiunea de [Wiki](https://github.com/silviusinca/ESTS/wiki).
 
 # Descrierea Aplicatiei
 E.S.T.S (Help Violetta to escape) este un joc de 2D de tip Escape Room pentru pasionatii de acest gen planuit sa distreze, dar si sa puna la incercare chiar si cel mai experimentat jucator de Escape Room-uri.
