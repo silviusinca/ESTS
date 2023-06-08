@@ -4,10 +4,10 @@ Proiect realizat pentru Metode de Dezvoltare Software.
 
 # Proiect creat de: 
 [Sinca Silviu](https://github.com/silviusinca) <br>
-[Voinea Ana-Maria](https://github.com/Moozey)
-[Magureanu Stefan](https://github.com/StefanMagureanu25)
-[Duca Cosmina]()
-[Danciu Razvan](https://github.com/RazvanDanciu28)
+[Voinea Ana-Maria](https://github.com/Moozey) <br>
+[Magureanu Stefan](https://github.com/StefanMagureanu25) <br>
+[Duca Cosmina]() <br>
+[Danciu Razvan](https://github.com/RazvanDanciu28) <br>
 
 
 
