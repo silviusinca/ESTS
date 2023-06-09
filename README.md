@@ -6,7 +6,7 @@ Proiect realizat pentru Metode de Dezvoltare Software.
 [Sinca Silviu](https://github.com/silviusinca) <br>
 [Voinea Ana-Maria](https://github.com/Moozey) <br>
 [Magureanu Stefan](https://github.com/StefanMagureanu25) <br>
-[Duca Cosmina]() <br>
+[Duca Cosmina](https://github.com/cosminnnna) <br>
 [Danciu Razvan](https://github.com/RazvanDanciu28) <br>
 
 
