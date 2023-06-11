@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/Scenes/ViolettaScenes/Menu.unity
     guid: 903b8bd3bb302924cb61b945883e2afe
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/Bedroom.unity
@@ -20,9 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/PhotoFrame.unity
     guid: 22ce1c4e903a1324389317dc2d979ec8
-  - enabled: 1
-    path: Assets/Scenes/ViolettaScenes/Oitza.unity
-    guid: 06f584df2a901d341b32c8c76ed70f9f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/Seif.unity
     guid: f48e277bad3fd864cad1f2ff8ecacdb5
@@ -44,4 +44,52 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ViolettaScenes/masaBuc.unity
     guid: 7a782a24844cd4442bd187244375891e
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/UnlockSafeBox.unity
+    guid: b22e3d54b9d644efa9ba4bf9bf651a44
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/OpenSafeBox.unity
+    guid: 05e65f65179754740b87d05fe0c264e3
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Nightstand.unity
+    guid: 7d98ca79d34527f4fa23f284d2062141
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/OpenWardrobe.unity
+    guid: 06bcbd9a74fea2a4a823ae0ecf713cb6
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/UnderPillow.unity
+    guid: 5d918beab5e9cf14cb1ad467d32dd93a
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Cada.unity
+    guid: ed3a63d8c99b8c842867ba5a2e9cf89f
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/ChiuvetaBaie.unity
+    guid: 235f71ed13c366d43ac4d23e08dc2c9f
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/cutie.unity
+    guid: 22b4e863c87bcc24cad0d05db960151e
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/notitaChiuveta.unity
+    guid: efdf6bec365dc4c4cba443ce45b7214f
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/SertarBaie.unity
+    guid: f0946236a8db00143b53671d4530d8da
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Oitza.unity
+    guid: 19b3d13c5af419a41acc6b634319a844
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/NoteOfCodeStory.unity
+    guid: 4287a5f5a9fb38344a0105a6efe35d74
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/ReadNote.unity
+    guid: e5367cc772be70a408068426778b2269
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/StartVioletta.unity
+    guid: dc897562979a71143aea86abd712c5fc
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Congrats.unity
+    guid: e17f433edf44fb8469d71f251292d294
+  - enabled: 1
+    path: Assets/Scenes/ViolettaScenes/Ceas.unity
+    guid: 27e8913f0a517fb44b1205ff13762655
   m_configObjects: {}

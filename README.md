@@ -1,6 +1,6 @@
 # ESTS
 
-Proiect realizat pentru Metode de Dezvoltare Software.
+Proiect realizat pentru cursul de Metode de Dezvoltare Software.
 
 # Proiect creat de: 
 [Sinca Silviu](https://github.com/silviusinca) <br>
@@ -18,5 +18,3 @@ E.S.T.S (Help Violetta to escape) este un joc de 2D de tip Escape Room pentru pa
 		Jocul a fost dezvoltat in Unity, iar acesta prezinta un meniu principal, din care se poate alege incepera jocului sau modificarea unor anumite setari precum volumul.
 		Povestea jocului o prezinta pe Violetta (celebra protagonista din serialul indragit mult de copiii anilor 2010) care isi da seama ca este inchisa in casa. Scopul jocului este de a o ajuta pe Violetta sa gaseasca cheia care ii permite sa iasa din casa. Acest lucru il va realiza jucatorul prin rezolvarea unei serii de puzzle-uri si ghicitori care sunt conectate intre ele si care ii permit jucatorului sa avansaze spre finalul jocului.
 		Jocul se termina in momentul in care utilizatorul descopera cifrele seifului ce contine cheia care deschide usa casei.
-		
-	
